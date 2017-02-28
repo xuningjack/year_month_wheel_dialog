@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_year_month_wheel</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="year_prompt">%d年</string>
+	<string name="month_prompt">%d月</string>
+	
+	
+</resources>

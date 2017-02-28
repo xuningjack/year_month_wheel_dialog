@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    
+    <!--custom dialog style-->
+	<style name="CustomDialog_Title">
+		<item name="android:maxLines">1</item>
+		<item name="android:scrollHorizontally">true</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:color">@android:color/white</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#FF000000</item>
+	</style>
+    
+	<style name="DialogPopupWindow" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:background">@null</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:padding">0dp</item>
+	</style>
+	
+	<style name="CustomDialog_TextAppearance">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textColor">#A7A7AB</item>
+	</style>
+	
+	<style name="popmenu_anim_style">
+		<item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+		<item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+	</style>
+
+</resources>
